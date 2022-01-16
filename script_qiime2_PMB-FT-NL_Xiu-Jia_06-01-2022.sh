@@ -7,7 +7,7 @@
 #SBATCH -e import_%j.error
 #SBATCH --mem 16G
 #SBATCH --partition=gelifes
-#SBATCH --mail-user=x.jia@rug.nl
+#SBATCH --mail-user=you-email-adress
 #SBATCH --mail-type=ALL
 
 # this script created by Xiu Jia (xibeihenai@gmail.com) on 06-01-2021
@@ -23,7 +23,7 @@ module load QIIME2/2020.8
 
 # define the name of the dataset
 SOURCE="PMB-FT-NL" 
-DB="/data/p278113/qiime/QIIME2/silva-138-99-515-806-nb-classifier.qza"
+DB="/MY-DIRECTORY/qiime/QIIME2/silva-138-99-515-806-nb-classifier.qza"
 
 ### first set the right working directory dataset and upload metadata and manifest file in correct formats
 $PWD
