@@ -7,11 +7,11 @@
 #SBATCH -e import_%j.error
 #SBATCH --mem 16G
 #SBATCH --partition=gelifes
-#SBATCH --mail-user=you-email-adress
+#SBATCH --mail-user=you-email-address
 #SBATCH --mail-type=ALL
 
 # this script created by Xiu Jia (xibeihenai@gmail.com) on 06-01-2021
-# updated by Xiu Jia on 16-01-2022
+# updated by Xiu Jia on 17-01-2022
 # it follows the scripts used in potatoMETAbiome project made by Stefanie Vink 
 # sequences are analyzed using QIIME2 on Peregrine HPC (the University of Groingen). To access Peregrine, you can used MobaXterm in Windows and Terminal on MacOS
 # in QIIME2 the qza files are the data files and the qzv are the visualization files
@@ -235,7 +235,6 @@ qiime diversity alpha-rarefaction \
   --verbose
 
 
-
-
-
 # well done!
+
+# further analysis based on the outputs can be preceed under R environment. have fun~
