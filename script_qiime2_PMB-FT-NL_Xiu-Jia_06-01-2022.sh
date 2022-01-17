@@ -237,4 +237,4 @@ qiime diversity alpha-rarefaction \
 
 # well done!
 
-# further analysis based on the outputs can be preceed under R environment. have fun~
+# further analysis based on the outputs can be proceeded under R environment. have fun~
